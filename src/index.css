@@ -1,0 +1,182 @@
+/*------------------------------------------------------------------
+
+    [Table of contents]
+
+	1. VARIABLES
+	2. GLOBAL STYLES
+	3. APP STYLES
+  4. HEADER
+  5. TEXT PANELS
+  6. FOOTER
+
+-------------------------------------------------------------------*/
+
+/* -------------------------
+        1. VARIABLES
+------------------------- */
+
+/* 1.1 Color variables */
+
+
+
+
+/* -------------------------
+        2. GLOBAL STYLES
+------------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+  font-family: 'Space Mono', monospace;
+  color: #4A4A4A;
+  background-color: #FFCD38;
+}
+
+/* -------------------------
+        3. APP STYLES
+------------------------- */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+/* -------------------------
+        4. HEADER
+------------------------- */
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.app-title {
+  order: 2;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.end{
+ 
+ 
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: 1480px;
+  margin-top: 3px;
+}
+.end button{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: #FFCD38;
+  
+}
+
+
+.help-button {
+  align-self: flex-end;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 10px 10px lighten(#4A4A4A, 10%);;
+  background-color: lighten(#FFDD67, 15%);
+  cursor: pointer;
+  transition:  .2s ease-out;
+ 
+}
+
+
+  .help-button {
+    align-self: center;
+    margin: 0;
+    height: inherit;
+    box-shadow: none;
+    transition: #FFCD38 .2s ease-out;
+   
+  }
+
+
+/* -------------------------
+        6. TEXT PANELS
+------------------------- */
+
+.text-panels {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 10%;
+  height: 600px;
+}
+
+
+ 
+
+
+.text-panel-left,
+.text-panel-right {
+  width: 45%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 10px 10px lighten(#4A4A4A, 10%);
+  background-color: #FFDD67;
+}
+
+.text-panel-left {
+  resize: none;
+  outline: none;
+  overflow-x: hidden;
+  font-family: 'Space Mono', monospace;;
+  font-size: .95em;
+  color: #4A4A4A;
+  border: 0;
+  
+}
+
+.text-panel-right {
+  font-size: .95em;
+  overflow: auto;
+}
+
+
+
+
+
+  
+
+
+
+  .text-panel-left,
+  .text-panel-right {
+    width: 50%;
+    box-shadow: none;
+  }
+  .text-panel-left {
+    border-right: 3px solid #FFCD38;
+  }
+
+
+/* -------------------------
+        5. FOOTER
+------------------------- */
+
+footer {
+  text-align: center;
+  font-size: .8em;
+  line-height: 30px;
+  margin-top: 20px;
+ 
+}
+footer a { 
+    text-decoration: none;
+    color: #4A4A4A;
+  }
